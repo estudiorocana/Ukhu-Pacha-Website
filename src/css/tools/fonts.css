@@ -1,0 +1,28 @@
+/* FONTS */
+
+@font-face {
+  font-family: "Monserrat";
+
+  src:  url("../fonts/Montserrat-Regular.ttf") format("ttf");
+       
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quicksand";
+
+  src:  url("../fonts/Quicksand-Regular.ttf") format("ttf");
+       
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Drashboard";
+
+  src:  url("../fonts/Dashboard-Regular.otf") format("otf");
+       
+  font-weight: 100;
+  font-style: normal;
+}

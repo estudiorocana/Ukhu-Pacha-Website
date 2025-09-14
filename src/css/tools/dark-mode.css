@@ -1,0 +1,87 @@
+/* MODO OSCURO */
+
+body.dark-mode {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+body.dark-mode #logo-id {
+  background: #000000;
+}
+
+body.dark-mode #dark-toggle {
+  background: var(--color-whity);
+  color: #000;
+}
+
+body.dark-mode #dark-toggle:hover {
+  background: #ffcc5f;
+  transform: scale(1.1);
+}
+
+body.dark-mode #navbar {
+  background: var(--color-blacky);
+  
+    li {
+      background: var(--color-blacky);
+      color: var(--color-whity);
+
+      a {
+        color: var(--color-whity);
+      }
+      
+      ul {
+        color: var(--color-redb);
+      }
+    }
+    
+    li:hover {
+      background: var(--color-rede);  
+      
+      ul {
+        
+        li {
+          background: var(--color-blacky);
+
+          a {
+            color: var(--color-whity);
+          }
+
+          #nav-menu.open {
+            background: var(--color-blacky);
+          }
+
+        }
+
+        li:hover {
+          background: var(--color-browny);  
+        }
+      }
+    }
+
+    #nav-icons {
+
+      .nav-icon svg {    
+        fill: var(--color-redd);         
+      }
+        
+      .nav-icon:hover svg {  
+        fill: var(--color-reda);  
+      }    
+    }
+    
+  }
+
+  body.dark-mode #hero {
+    background: #000000;  
+  }
+
+
+  body.dark-mode #main-content {
+    color: var(--color-whity);
+    background: var(--color-blacky-crystal);
+
+    p {    
+      color: var(--color-whity);    
+    }
+}

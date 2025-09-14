@@ -1,0 +1,33 @@
+/* FOOTER */
+
+#footer-id {    
+    height: 1.75rem;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    min-height: 1.75rem;
+
+    font-size: .5rem;
+    color: var(--color-greya);
+    background-color: var(--color-blacky);
+
+    margin-top: auto;
+}
+
+#footer-cp {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  
+  font-size: 0.7rem;
+}
+
+@media(max-width: 840px) {
+  #footer-id {
+    display: flex;
+  }
+}

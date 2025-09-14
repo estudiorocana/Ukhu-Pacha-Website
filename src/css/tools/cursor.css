@@ -1,0 +1,38 @@
+/* CURSOR */
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background: black;
+  transform: translate(-50%, -50%) rotate(45deg);
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: var(--color-reda);
+  pointer-events: none;
+  opacity: 0.8;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: fadeTrail 0.6s linear forwards;
+  z-index: 9999;
+}
+
+@keyframes fadeTrail {
+  from {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1) rotate(45deg);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3) rotate(45deg);
+  }
+}

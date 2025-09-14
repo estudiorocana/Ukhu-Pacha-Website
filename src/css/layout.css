@@ -1,0 +1,26 @@
+/* LAYOUT */
+
+@import url(./sections/logo.css);
+@import url(./sections/nav.css);
+@import url(./sections/hero.css);
+@import url(./sections/main.css);
+@import url(./sections/footer.css);
+
+@import url(./tools/cursor.css);
+@import url(./tools/dark-mode.css);
+
+@import url(./app.css);
+
+html, body {
+  height: 100%;
+  
+  padding: 0px;
+  margin: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  cursor: none;
+}

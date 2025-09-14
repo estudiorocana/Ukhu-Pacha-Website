@@ -1,0 +1,21 @@
+/* MAIN CSS */
+
+@import url(./css/tools/fonts.css);
+@import url(./css/tools/vars.css);
+@import url(./css/layout.css);
+
+:root {
+  font-family: "Quicksand";
+
+  line-height: var(--line-height-default);
+  font-weight: var(--font-weight-default);
+
+  color-scheme: light dark;
+  color: var(--color-blacky);
+  background-color: var(--color-silver-white);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,21 @@
+/* VARIABLES */
+
+:root {
+
+  --color-reda: #BE1522;
+  --color-redb: #9b131e;
+  --color-redc: #BE1522FF;
+  --color-redd: #BE152255;
+  --color-rede: #63050d;
+  --color-whity: #F5F5F5;
+  --color-greya: #dadada;
+  --color-greyo: #b1b1b1;
+  --color-blacky: #050505;
+  --color-blacky-crystal: #05050581;
+  --color-browny: #333333;
+  --color-crystal: #ffffffDD;
+
+  --line-height-default: 1.5;
+  --font-weight-default: 100;
+
+}
